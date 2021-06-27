@@ -5,11 +5,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.portfolio-img{
+body > img{
     max-width: 100%;
     width: 45%;
     position: fixed;
     height: auto;
+
 }
 .CV{
     float: right;
