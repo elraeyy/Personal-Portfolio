@@ -35,9 +35,13 @@
         text-align: justify;
         margin-left: 0%;
     }
-    .ports{
-        margin-left: -20%;
+    .contact{
+        text-align: center;
     }
+    .opposite-div-section{
+        text-align: center;
+    }
+
     /* CSS */
     
   }
@@ -51,13 +55,12 @@
     .portfolio-img{
         position: relative !important;
         width: 100%;
+        height: auto;
     }
     .right-section{
         text-align: justify;
         margin-left: 0%;
-    }
-    .ports{
-        margin-left: -20%;
+        width: min-content;
     }
 
 
@@ -74,10 +77,13 @@
     .portfolio-img{
         position: relative !important;
         width: 100%;
+        height: auto;
     }
     .right-section{
         text-align: justify;
         margin-left: 0%;
+        width: auto;
+        padding-left: 5%;
     }
     .ports{
         margin-left: -20%;
@@ -110,13 +116,15 @@
     .portfolio-img{
         position: relative !important;
         width: 100%;
+        height: auto;
     }
     .right-section{
         text-align: justify;
         margin-left: 0%;
+        width: auto;
+        padding-left: 5%;
     }
     .ports{
-        margin-left: -20%;
         flex-direction: column;
         text-align: center;
     }
@@ -137,19 +145,18 @@
     .top-columns {
         flex-direction: column;
         width: max-content;
-        margin-left: -25%;
     }
     body{
         overflow-x: hidden;
     }
     body > section > h1{
-        width: min-content;
+        width: auto;
     }
     body > section > h3{
-        width: min-content;
+        width: auto;
     }
-    body > section > div.form > div > div > input{
-        margin-left: -25%;
+    body > section > div:nth-child(18) > h2{
+        text-align: center;
     }
 
     /* CSS */

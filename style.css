@@ -9,19 +9,22 @@ body > img{
     max-width: 100%;
     width: 45%;
     position: fixed;
-    height: auto;
-
+    height: -webkit-fill-available;
 }
 .CV{
     float: right;
     margin: 3%;
-    width: 15vw;
+    width: auto;
     background-color: black;
     text-align: center;
-    height: 8vh;
+    height: auto;
     color: aliceblue;
-    padding-top: 1%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
     text-decoration: none;
+    border-radius: 5%;
 }
 body > div > a:hover{
     background-color: burlywood;
@@ -81,11 +84,10 @@ body > section > div.container > div > div > h2 > a:hover{
     flex-direction: column;
 }
 .left-div{
-    width: 10vw;
+    width: 100%;
 }
 .right-div{
-    padding-left: 30%;
-    width: 30vw;
+    width: 100%;
     margin: auto;
 }
 div a:hover{
@@ -193,11 +195,10 @@ body > section > h2:nth-child(10){
     display: flex;
 }
 .img1{
-    border: 20px;
     border-color: burlywood;
     height: 150px;
     border-radius: 10%;
-    padding-right: 5%;
+    text-align: center;
 }
 .contact{
     padding-top: 5%;
